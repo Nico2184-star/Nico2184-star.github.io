@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nicole Lourdes Pereira | Computer Engineering Student</title>
+<meta name="description" content="Portfolio of Nicole Lourdes Pereira, a Computer Engineering student at Don Bosco Institute of Technology, Mumbai, focused on web development.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a href="#home" class="brand" aria-label="Nicole Pereira, home">NP</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+  <nav id="navLinks" class="links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact" class="pill">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-text">
+    <p class="kicker">Computer Engineering student, Mumbai</p>
+    <h1>Nicole Lourdes Pereira</h1>
+    <p class="lead">I build web applications and enjoy turning ideas into things people can actually use. I'm a third-year student at Don Bosco Institute of Technology, with a focus on full-stack web development.</p>
+    <div class="actions">
+      <a class="btn primary" href="assets/Nicole_Pereira_Resume.pdf" target="_blank" rel="noopener">View resume</a>
+      <a class="btn" href="#projects">See my projects</a>
+    </div>
+  </div>
+  <div class="photo-wrap">
+    <div class="photo-frame">
+      <span class="monogram" aria-hidden="true">NP</span>
+      <img src="assets/photo.jpg" alt="Portrait of Nicole Lourdes Pereira" id="profilePhoto">
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About me</h2>
+  <div class="two-col">
+    <div class="prose">
+      <p>I'm a Computer Engineering student at Don Bosco Institute of Technology, Mumbai, and I'm especially drawn to web development. My main project so far is a full-stack e-commerce site built with PHP, MySQL and JavaScript, which placed 2nd at DBIT InnoQuest 2025.</p>
+      <p>I've also made a 2D game in Unity and I'm currently working on a machine learning project for the Smart India Hackathon. Outside coding, I lead student groups and organise events, which has taught me as much about teamwork and communication as my coursework has about code.</p>
+      <p>I'm looking for an internship where I can work on real projects, learn from experienced developers and contribute to a team.</p>
+    </div>
+    <ul class="facts">
+      <li><strong>8.09 / 10</strong><span>CGPA up to Semester 4</span></li>
+      <li><strong>2nd place</strong><span>DBIT InnoQuest 2025</span></li>
+      <li><strong>President</strong><span>Salesian Youth Movement</span></li>
+      <li><strong>Languages</strong><span>English, Hindi</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="section alt">
+  <h2>Skills</h2>
+  <div class="skill-grid">
+    <div class="skill-group"><h3>Programming</h3><ul class="chips"><li>C</li><li>Java</li><li>Python</li><li>JavaScript</li><li>PHP</li><li>C#</li><li>Assembly (8086)</li></ul></div>
+    <div class="skill-group"><h3>Web development</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>PHP</li><li>AJAX</li></ul></div>
+    <div class="skill-group"><h3>Databases</h3><ul class="chips"><li>MySQL</li><li>SQL</li><li>CRUD operations</li><li>Relational design</li></ul></div>
+    <div class="skill-group"><h3>Tools</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>Unity</li><li>Figma</li><li>Canva</li></ul></div>
+    <div class="skill-group wide"><h3>Core strengths</h3><ul class="chips soft"><li>Communication</li><li>Coordination</li><li>Documentation</li><li>Teamwork</li><li>Problem-solving</li></ul></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <article class="project">
+    <div class="project-meta"><span class="date">Nov 2025</span><span class="badge">2nd place, DBIT InnoQuest 2025</span></div>
+    <div class="project-body">
+      <h3>Sole Purpose: footwear e-commerce platform</h3>
+      <p>A full-stack online shoe store designed for people with foot conditions such as flat feet and bunions. A Foot Quiz and Size Converter help visitors find the right fit. Cart updates happen through AJAX without reloading the page, and the data sits in a relational MySQL database with full CRUD operations.</p>
+      <p>I also added an eco-friendly product category and a donation drive module where users enter their PIN code to find the nearest drive. I spoke with a Khadim's Shoes store manager to get UI and sales feedback.</p>
+      <p class="role"><strong>My role:</strong> developed the full-stack application and gathered user feedback.</p>
+      <ul class="tags"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>AJAX</li><li>HTML5</li><li>CSS3</li></ul>
+    </div>
+  </article>
+  <article class="project">
+    <div class="project-meta"><span class="date">Aug 2026</span></div>
+    <div class="project-body">
+      <h3>Swervers: 2D adventure game</h3>
+      <p>A 2D side-scrolling game made in Unity with C# scripting. It has multiple levels, coin collection and obstacles. I implemented player movement, collision detection, moving platforms and score-based progression.</p>
+      <p class="role"><strong>My role:</strong> game development and scripting.</p>
+      <ul class="tags"><li>Unity</li><li>C#</li><li>Figma</li></ul>
+    </div>
+  </article>
+  <article class="project">
+    <div class="project-meta"><span class="date">Oct 2026</span><span class="badge muted">In progress</span></div>
+    <div class="project-body">
+      <h3>Non-Revenue Water (NRW) leak detection</h3>
+      <p>A pipeline leak localisation system for the Smart India Hackathon (SIH1288). It combines EPANET hydraulic modelling with machine learning to analyse pressure and flow discrepancies and detect anomalies.</p>
+      <ul class="tags"><li>Python</li><li>Machine learning</li><li>EPANET</li></ul>
+    </div>
+  </article>
+  <p class="note">More of my code is on <a href="https://github.com/Nico2184-star" target="_blank" rel="noopener">GitHub</a>.</p>
+</section>
+
+<section id="education" class="section alt">
+  <h2>Education</h2>
+  <ol class="timeline">
+    <li>
+      <span class="when">2024 – 2028</span>
+      <h3>Bachelor of Engineering, Computer Engineering</h3>
+      <p>Don Bosco Institute of Technology, Mumbai (University of Mumbai)<br>CGPA: 8.09 / 10 up to Semester 4</p>
+    </li>
+    <li>
+      <span class="when">2022 – 2024</span>
+      <h3>Higher Secondary Certificate (HSC)</h3>
+      <p>Nirmala Memorial Foundation College of Commerce and Science</p>
+    </li>
+    <li>
+      <span class="when">Earlier</span>
+      <h3>Secondary School Certificate (SSC)</h3>
+      <p>St. Joseph's Convent High School</p>
+    </li>
+  </ol>
+</section>
+
+<section id="leadership" class="section">
+  <h2>Achievements &amp; leadership</h2>
+  <div class="lead-grid">
+    <div class="lead-item">
+      <span class="when">Aug 2026 – present</span>
+      <h3>President, Salesian Youth Movement (SYM), DBCL</h3>
+      <p>I lead a youth group for Catholic students to come together for prayer, learning and friendship. I headed events such as the Inauguration and Marian Game Night, coordinating the team and planning the programme.</p>
+    </div>
+    <div class="lead-item">
+      <span class="when">Aug 2025 – May 2026</span>
+      <h3>Assistant Publicity Head, ACM, DBIT</h3>
+      <p>I handled publicity and PR for ACM events and reached out to other colleges to promote them, building contacts and improving my communication and networking skills.</p>
+    </div>
+    <div class="lead-item">
+      <span class="when">2025</span>
+      <h3>2nd place, DBIT InnoQuest</h3>
+      <p>Won for Sole Purpose, my footwear e-commerce platform.</p>
+    </div>
+    <div class="lead-item">
+      <span class="when">2026</span>
+      <h3>Smart India Hackathon</h3>
+      <p>Working on the NRW leak detection problem statement (SIH1288).</p>
+    </div>
+  </div>
+</section>
+
+<section id="resume" class="section alt">
+  <h2>Resume</h2>
+  <p class="prose">A one-page summary of my education, projects and experience.</p>
+  <div class="actions">
+    <a class="btn primary" href="assets/Nicole_Pereira_Resume.pdf" target="_blank" rel="noopener">View resume (PDF)</a>
+    <a class="btn" href="assets/Nicole_Pereira_Resume.pdf" download="Nicole_Pereira_Resume.pdf">Download</a>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p class="prose">I'm open to internships and web development opportunities. The quickest way to reach me is by email.</p>
+  <div class="actions">
+    <a class="btn primary" href="mailto:nicole.pereira2184@gmail.com">nicole.pereira2184@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/nicolepereira2184" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/Nico2184-star" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>© <span id="year">2026</span> Nicole Lourdes Pereira. Built with HTML, CSS and JavaScript.</p>
+  <a href="#top">Back to top</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
